@@ -7,7 +7,7 @@ Our hybrid model uses a combination of both filtering techniques.
 
 One of the major issues with music recommendations is the lack of explicit ratings for individual songs. Streaming services often have proprietary explicit rating data (e.g. Spotify thumbs up or thumbs down rating) but ultimately there is very little explicit ratings data on music, especially in publicly available data.
 
-In order to get around this, our model uses Singular Value Decomposition, a form of matrix factorization, to estimate a user's rating for individual songs by use of listening history by comparing individual users' listening histories.
+In order to get around this, our model uses Singular Value Decomposition, a form of matrix factorization, to estimate a user's rating for individual songs by comparing individual users' listening histories.
 
 After determining the ratings, we built a neural network classifier for the individual user to find the patterns in the audio features for the songs that user's most enjoyed.
 
