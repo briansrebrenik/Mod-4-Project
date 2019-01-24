@@ -18,6 +18,6 @@ Ultimately this network can then be used to classify other audio, to find recomm
 * Spotify API (for song features): https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
 
 ### Tools Used
-* Surprise - Recommender System library built off Scikit-Learn
+* [Surprise](http://surpriselib.com/)- Recommender System library built off Scikit-Learn
 * Keras, Talos - Neural Network (Keras) and Hyperparameter Tuning (Talos)
 * Experiments done in Amazon Sagemaker
