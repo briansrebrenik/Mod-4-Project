@@ -13,5 +13,11 @@ After determining the ratings, we built a neural network classifier for the indi
 
 Ultimately this network can then be used to classify other audio, to find recommendations for the user.
 
+### Data Sources
 LastFM User Listening History Data: https://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-1K.html
 Spotify API (for song features): https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
+
+### Tools Used
+Surprise - Recommender System library built off Scikit-Learn
+Keras, Talos - Neural Network (Keras) and Hyperparameter Tuning (Talos)
+Experiments done in Amazon Sagemaker
