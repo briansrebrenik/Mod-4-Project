@@ -9,7 +9,7 @@ One of the major issues with music recommendations is the lack of explicit ratin
 
 In order to get around this, our model uses Singular Value Decomposition, a form of matrix factorization, to estimate a user's rating for individual songs by comparing individual users' listening histories.
 
-After determining the ratings, we built a neural network classifier for the individual user to find the patterns in the audio features for the songs that user's most enjoyed.
+After determining the ratings, we built a neural network classifier for the individual user to find the patterns in the audio features for the songs that the user most enjoyed.
 
 Ultimately this network can then be used to classify other audio, to find recommendations for the user.
 
